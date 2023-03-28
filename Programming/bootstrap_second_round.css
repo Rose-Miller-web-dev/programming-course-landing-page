@@ -1,0 +1,201 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    padding: 0px;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+
+    .pop-post-p{
+        display: none;
+    }
+
+    .map_column{
+        width: 300px;
+        height: 170px;
+    }
+}
+
+@media(min-width: 598px){
+    .news-input{
+        width: 50%;
+    }
+
+    .pop-post-p{
+        display: none;
+    }
+
+    .map_column{
+        width: 200px;
+        height: 160px;
+    }
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+  
+  /* Bottom right text */
+.title-over {
+    position: absolute;
+    color: white;
+}
+
+.col-lg{
+    width: 50%;
+}
+
+.img-pop{
+    width: 200px;
+    height: 350px;
+}
+
+.see-more{
+    position: relative;
+    left: 46.5%;
+}
+
+.contact_sec_i{
+    width: 100px;
+    height: 100px;
+}
+
+.header-background{
+    height: 80%;
+}
+
+body::before{
+    display: block;
+    content:'';
+    height: 110px;
+}
+
+.navigation_{
+    background-color: #000411;
+}
+
+.navigation_item{
+    color: #E1EFE6;
+}
+
+.navigation_item:hover{
+    color: #AEB7B3;
+}
+
+.navigation_title{
+    color: #EFCB68;
+}
+
+.navigation_button_up{
+    background-color: #EFCB68;
+    color: #000411;
+    border-color: #EFCB68;
+}
+
+.navigation_button_up:hover{
+    background-color: #cbac56;
+    border-color: #cbac56;
+}
+
+.navigation_button_up:active{
+    background-color: #b3994f;
+    border-color: #a48b47;
+}
+
+.dropdown-menu{
+    background-color: #E1EFE6;
+}
+
+.dropdown-item{
+    background-color: #E1EFE6;
+    color: #000411;
+}
+
+.h1-title{
+    color: #000411;
+}
+
+.accordion-button{
+    color: #000411;
+}
+
+.portfos{
+    background-color: #000411;
+}
+
+.paragraph{
+    color: #160C28;
+}
+
+.btn-dark{
+    background-color: #000411;
+    color: #E1EFE6;
+}
+
+.navigation_mid{
+    background-color: #000411;
+    color: #E1EFE6;
+}
+
+.news-input{
+    background-color: #E1EFE6;
+}
+
+.btn-outline-light{
+    color: #E1EFE6;
+}
+
+.btn-outline-light:hover{
+    background-color: #E1EFE6;
+}
+
+.post_p{
+    background-color: #000411;
+    color: #E1EFE6;
+}
+
+.post_link{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.post_title{
+    text-decoration: none;
+    color: #EFCB68;
+    text-decoration: none;
+}
+
+.learning{
+    background-color: #000411;
+}
+
+.yello_btn{
+    background-color: #EFCB68;
+    border-color: #EFCB68;
+    color: #000411;
+}
+
+.yello_btn:hover{
+    background-color: #cbac56;
+    border-color: #cbac56;
+}
+
+.contact_data{
+    color: #000411;
+}
+
+.footer_{
+    background-color: #000411;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 200;
+}

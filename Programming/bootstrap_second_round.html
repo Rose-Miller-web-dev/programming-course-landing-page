@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./bootstrap_second_round.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar bg py-4 px-4 fixed-top navigation_">
+            <div class="container">
+                <a href="#" class="navbar-brand navigation_title logo">-R- Y L E</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="./bootstrap_second_round.html" class="nav-link active navigation_item">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle navigation_item" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Post Categories</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Books</a>
+                              <a class="dropdown-item" href="#">Music</a>
+                              <a class="dropdown-item" href="#">Movies</a>
+                              <a class="dropdown-item" href="#">University Educatin</a>
+                              <a class="dropdown-item" href="#">Dorm's</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Show All!</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#learn" class="nav-link navigation_item">Learn</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact_me" class="nav-link navigation_item">Contact Me!</a>
+                        </li>
+
+                        <li class="nav-item ms-2 mt-1">
+                            <button class="btn btn-sm btn-outline-light yello_btn" data-bs-toggle="modal" data-bs-target="#course">Courses</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="py-4 bg-light p-lg-0 pt-lg-4">
+            <div class="container">
+                <div class="header-section d-sm-flex justify-content-between">
+                    <div class="img-header">
+                        <img class="align-self-center w-100 h-75 header-background" src="./laptop.jpg">
+                    </div>
+                    <div class="position-relative align-text-top p-4">
+                        <h1 class="mb-sm-3 h1-title">Code <span class="text-primary">smartly</span>!</h1>
+                        <p class="lead w-75 d-none d-sm-block fw-bolder paragraph" style="position: relative;">
+                                Right now, the weather is just about perfect,
+                                which makes it absolutely ideal to enjoy the best leaf peeping in America—there’s
+                                truly no better time to take in the beautiful landscape this country has to offer.
+                        </p>
+                        <button class="btn btn-dark btn-lg">See The Post</button> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="navigation_mid text-light p-3 mt-0 ">
+            <div class="container">
+                <div class="d-sm-flex justify-content-between align-items-center ">
+                    <h3 class="navigation_title">Popular Posts</h3>
+                    <div class="input-group w-50">
+                        <input type="text" class="form-control news-input">
+                        <button class="btn btn-outline-light" type="button">Let Me Know!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-4">
+            <div class="container">
+                <div class="row m-4 align-items-center justify-content-around">
+                    <div class="col-lg col-md-1 col-sm-auto">
+                        <div class="card rounded-0 w-100 post">
+                            <div class="card-body p-0">
+                                <img class="img-fluid card-img-top rounded-0 opacity-100 w-100 d-flex position-relative img-pop" src="./book.jpg" alt="">
+                            </div>                            
+                        </div>
+                        <div class="w-100 p-4 h-auto post_p">
+                            <a href="./post_bootstrap.html"><h2 class="post_title">Start Reading ASAP!</h2></a>
+                            <p class="d-none d-lg-block d-md-block d-sm-none pop-post-p post_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Optio asperiores debitis odit pariatur necessitatibus cumque minima aliquid. Autem, tempore fugit!</p>
+                            <a class="link-light mb-3 post_link">View Post</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg col-md-1 col-sm-auto">
+                        <div class="card rounded-0 w-100 post">
+                            <div class="card-body p-0">
+                                <img class="img-fluid card-img-top rounded-0 opacity-100 w-100 d-flex position-relative img-pop" src="./dorm.jpg" alt="">
+                            </div>                            
+                        </div>
+                        <div class="w-100 p-4 h-auto post_p">
+                            <a href="#"><h2 class="post_title">Living In Uni's Dorm!</h2></a>
+                            <p class="d-none d-lg-block d-md-block d-sm-none pop-post-p post_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Optio asperiores debitis odit pariatur necessitatibus cumque minima aliquid. Autem, tempore fugit!</p>
+                            <a class="link-light post_link">View Post</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="pop_row_toggler" class="btn btn-dark see-more" type="button" data-bs-toggle="collapse" data-bs-target="#row" aria-expanded="false" aria-controls="row">See More</button>
+                    <div class="row m-4 collapse justify-content-lg-between" id="row">
+                        <div class="col-lg col-md-auto col-sm-auto">
+                            <div class="card rounded-0 w-100 post">
+                                <div class="card-body p-0">
+                                    <img class="img-fluid card-img-top rounded-0 opacity-100 w-100 d-flex position-relative img-pop" src="./home-autumn-composition-with-tea-knitted-sweaters-interior-room-blurred-background-with-garland.jpg" alt="">
+                                </div>                            
+                            </div>
+                            <div class="w-100 p-4 h-auto post_p">
+                                <a href="#"><h2 class="post_title">Autumn Kind Of Feelings!</h2></a>
+                                <p class="d-none d-lg-block d-md-block d-sm-none pop-post-p post_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Optio asperiores debitis odit pariatur necessitatibus cumque minima aliquid. Autem, tempore fugit!</p>
+                                <a class="link-light mb-3 post_link">View Post</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg col-md-auto col-sm-auto">
+                            <div class="card rounded-0 w-100 post">
+                                <div class="card-body p-0">
+                                    <img class="img-fluid card-img-top rounded-0 opacity-100 w-100 d-flex position-relative img-pop" src="./pikwizard-5edd15040ca3c034f3190c561e5477a4.jpg" alt="">
+                                </div>                            
+                            </div>
+                            <div class="w-100 p-4 h-auto post_p">
+                                <a href="#"><h2 class="post_title">My Brownie Recipe!</h2></a>
+                                <p class="d-none d-lg-block d-md-block d-sm-none pop-post-p post_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Optio asperiores debitis odit pariatur necessitatibus cumque minima aliquid. Autem, tempore fugit!</p>
+                                <a class="link-light mb-3 post_link">View Post</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5 bg-white" id="learn">
+            <div class="container">
+                <div class="row align-items-center justify-content-around">
+                    <div class="col-md">
+                        <img src="./971.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md">
+                        <h2 class="navigation_title">Learn To Code With Me!</h2>
+                        <p class="">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis maiores,
+                            possimus quibusdam soluta, cumque, excepturi cupiditate corporis ad voluptatem sapiente
+                            ollitia saepe rerum vitae cum quidem. Neque, iure eum?
+                        </p>
+
+                        <a href=""><button class="btn-dark btn btn-lg"><i class="bi bi-chevron-right"></i>More Information</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-0 learning" id="learn2">
+            <div class="container">
+                <div class="row align-items-center justify-content-around p-4 learning">
+                    <div class="col-md">
+                        <h2 class="navigation_title">Learn Web Developing!</h2>
+                        <p class="post_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis officiis maiores,
+                            possimus quibusdam soluta, cumque, excepturi cupiditate corporis ad voluptatem sapiente
+                            ollitia saepe rerum vitae cum quidem. Neque, iure eum?
+                        </p>
+                        <a href=""><button class="btn-dark btn btn-lg yello_btn"><i class="bi bi-chevron-right"></i>More Information</button></a>
+                    </div>
+
+                    <div class="col-md">
+                        <img src="./971.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5" id="questions">
+            <div class="container">
+                <h2 class="text-center mb-4 h1-title">Frequently Asked Questions</h2>
+                <div class="accordion accordion-flush" id="question">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                          Where Exactly Are You Located?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#question">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Eius vero blanditiis deserunt, sit suscipit ipsam error porro iste qui, soluta,
+                             quia et tempore est quas nobis? Alias earum quos rerum ducimus omnis, quidem, 
+                             aut quaerat quisquam rem natus dignissimos minus cupiditate distinctio, qui 
+                             ullam eveniet deleniti voluptas dolores labore asperiores. </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+                          How Much Does It Cost To Be A Professional Developer?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#question">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae sit delectus perspiciatis ab, est minima exercitationem? Libero eum eius asperiores quam hic deserunt, maxime reiciendis. Perferendis esse quibusdam voluptatum voluptate totam, asperiores recusandae rerum fugiat dicta temporibus ex ipsa iure amet enim rem excepturi tempora incidunt ipsam adipisci, veniam officiis similique numquam necessitatibus. Voluptate incidunt quia eveniet ut velit quo ratione in non, nobis animi ea libero delectus dicta mollitia.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                          How Did You Happen To Start Coding?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#question">
+                        <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati minima ut debitis impedit vitae quibusdam esse, distinctio tenetur quae modi nam provident voluptate. Distinctio sed optio unde amet provident cupiditate laboriosam ab eligendi dignissimos quos dolorem possimus quam debitis, magni reprehenderit temporibus minima delectus explicabo nostrum molestiae doloribus. Distinctio suscipit impedit facere explicabo cumque quaerat laboriosam blanditiis adipisci sapiente quas numquam velit ab, odit enim nihil incidunt! Error quisquam, est delectus enim distinctio, facilis numquam quos optio odit dignissimos repudiandae.</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                            How To Get My First Job As A Developer?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#question">
+                          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ullam pariatur distinctio numquam dignissimos, molestiae illum. Possimus nesciunt facere reiciendis quisquam distinctio. Obcaecati aperiam sit perspiciatis neque quis necessitatibus minus ipsum quam architecto saepe minima, fuga explicabo? Aut quos magni culpa sapiente, laudantium et voluptatem nisi, earum aliquid dignissimos incidunt aliquam autem vel reiciendis tempora possimus necessitatibus animi iure deserunt doloribus reprehenderit? Asperiores illum maiores eum veritatis porro nostrum. Possimus iure, harum in temporibus minima vitae veniam deserunt inventore, qui et deleniti. Perferendis modi cupiditate praesentium, reiciendis odio beatae eum sint sit provident officiis nam quo, repudiandae corporis sunt animi ab quas facilis! Eius unde sint modi nobis, magni, error at maxime itaque placeat veniam quisquam tempore numquam laudantium similique ipsam optio nesciunt voluptatum, minima quas! Hic saepe a blanditiis!</div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="p-5 portfos">
+            <div class="container">
+                <h2 class="text-center post_title">Our Instructors</h2>
+                <p class="lead text-center mb-5 post_p">Our iNSTRUCTORS all have +5 years working as a developing team in the industry</p>
+                <div class="row g-4 align-items-center justify-content-between">
+
+                    <div class="col-lg-3 align-items-center justify-content-between">
+                        <div class="card bg-light m-4 w-100">
+                            <div class="card-body text-center">
+                                <img src="./67.jpg" class="rounded-circle mb-3">
+                                <h2 class="card-title mb-3">Sara Johnson</h2>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Esse doloribus eius molestias harum expedita beatae quia
+                                    laborum error temporibus quidem!
+                                </p>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 align-items-center justify-content-between">
+                        <div class="card bg-light m-4 w-100">
+                            <div class="card-body text-center">
+                                <img src="./68.jpeg" class="rounded-circle mb-3">
+                                <h2 class="card-title mb-3">John Miller</h2>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Esse doloribus eius molestias harum expedita beatae quia
+                                    laborum error temporibus quidem!
+                                </p>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 align-items-center justify-content-between">
+                        <div class="card bg-light m-4 w-100">
+                            <div class="card-body text-center">
+                                <img src="./tate.jpg" class="rounded-circle mb-3">
+                                <h2 class="card-title mb-3">Tate Andrew</h2>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Esse doloribus eius molestias harum expedita beatae quia
+                                    laborum error temporibus quidem!
+                                </p>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5" id="contact_me">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md mx-5">
+                        <h2 class="text-align-start p-4 contact_data">Contact Me</h2>
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold mb-2 contact_data">Main Location : </span>N 12 Cherry Street, Pencilvania
+                            </li>
+
+                            <li class="list-group-item">
+                                <span class="fw-bold contact_data">Office Phone Number  :</span>55-5555-55-55
+                            </li>
+
+                            <li class="list-group-item">
+                                <span class="fw-bold contact_data">Company's Email : </span>comapany@gmail.com
+                            </li>
+
+                            <li class="list-group-item">
+                                <span class="fw-bold contact_data">Personal Email : </span>Razieh@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md mx-5 map_column">
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">google map html widget</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:600px;}</style></div></div>                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="p-5 text-center position-relative mb-0 footer_">
+            <div class="container">
+                <p class="lead post_p">Copy Right &copy; 2022 Frontend Round</p>
+
+                <a href="#" class="position-absolute bottom-0 end-0">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+            </div>
+        </footer>
+
+        <div class="modal fade" id="course" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Course List</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <form>
+                            <div class="mb-3">
+                                <label for="last-name" class="col-form-label">Your Last Name : </label>
+                                <input type="text" class="form-control" id="last-name">
+
+                                <label for="first-name" class="col-form-label">Your First Name : </label>
+                                <input type="text" class="form-control" id="first-name">
+
+                                <label for="Email" class="col-form-label">Your Email : </label>
+                                <input type="email" class="form-control" id="Email">
+
+                                <label for="Number" class="col-form-label">Your Phone : </label>
+                                <input type="number" class="form-control" id="Number">
+
+                                <h5 class="lead m-3">Please check the courses you are interested in :</h5>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Bootstrap 5
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      React
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Node js
+                                    </label>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./bootstrap_second_round.js"></script>
+    </body>
+</html>
